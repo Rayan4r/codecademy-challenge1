@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: seashell;
+    font-weight: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1pxsolid seashell;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+header img{
+    margin-left: 10px;
+    height: 50px;
+}
+header ul{
+    margin-right: 10px;
+}
+header ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
+}
+header ul li a{
+    color: seashell;
+}
+
+
+#mission{
+    background: url(pictures/img-mission-background.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+#mission .mission-text{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    padding-bottom: 10px;
+}
+#mission .mission-text h2{
+    margin-bottom: 5px;
+}
+
+
+#featured-tea{
+    width: 85%;
+    margin: 70px auto;
+    text-align: center;
+}
+#featured-tea .featured-tea-text h4{
+    margin: 10px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxes .box{
+    margin: 10px;
+}
+
+.boxes .box img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.01);
+}
+
+#locations{
+    background: url(pictures/img-locations-background.jpg);
+    width: 95%;
+    height: 90vh;
+    margin: 80px auto 40px;
+    text-align: center;
+    background-position: center;
+    padding-top: 90px;
+}
+#locations h2{
+    margin-bottom: 15px;
+}
+#locations .box{
+    background-color: black;
+    width: 300px;
+    margin: 10px 40px;
+    padding: 10px;
+}
+#locations .box h2{
+    margin-top: 10px;
+}
+#locations .box h4{
+    margin-top: 15px;
+    opacity: 0.9;
+}
+
+footer{
+    text-align: center;
+}
+footer h2{
+    margin: 10px 0 20px 0;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px 15px 15px;
+}
